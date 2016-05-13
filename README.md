@@ -12,10 +12,17 @@ Para crear la aplicación de java hemos utilizado el IDE Netbeans 8.1.
 
 La Base de Datos utilizada es Oracle Database Enterprise Edition Release 12.1.0.2.0.
 
-Para hacer funcionar la aplicación primero importaremos el proyecto, al importar nos encontrara varios problemas ya que no encuentra las librerias utilizadas.
+Para hacer funcionar la aplicación primero importaremos el proyecto en Netbeans, al importar nos encontrara varios problemas ya que no encuentra las librerias utilizadas.
+
+Debemos de acordarnos también de modificar el codigo del GenericoBD en el modelo segun nuestras necesidades, ya que en este caso tenemos la conexion con nuestra base de datos que es daw10.
+Los campos que se modifican en el codigo son estos dos:           
+  String user = "daw10";
+  String pass = "daw10";
 
 Las librerias las adjuntamos en el repositorio y son Datechooser.jar (para el datachoosercombo de fecha) y ojdbc6.jar (para la conexión de java con la base de datos oracle).
 
 Una vez resuelto los problemas con las librerías ejecutaremos el programa en Netbeans. Esto nos llevara a la primera ventana que es Login. Tendremos que introducir un usuario y contraseña metido en la base de datos. Estos usuarios seran de administración o logística.
 
 Para hacer una prueba hay creado un usuario admin con contraseña admin. Este usuario de prueba es de tipo administración, asi que es capaz de acceder a todo.
+
+También se puede entrar por ejemplo con el usuario aritzGM con contraseña 1A que sería de administración o con amaiaGP con contraseña 2B que es de logística.
