@@ -12,9 +12,9 @@ Para crear la aplicación de java hemos utilizado el IDE Netbeans 8.1.
 
 La Base de Datos utilizada es Oracle Database Enterprise Edition Release 12.1.0.2.0.
 
-/**
-* Despliegue de la aplicación
-*/
+//
+// Despliegue de la aplicación
+//
 
 En SQLDeveloper abriremos y ejecutaremos el modelo lógico para crear primero la base de datos de oracle sobre la que trabajaremos.
 
