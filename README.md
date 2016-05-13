@@ -12,9 +12,16 @@ Para crear la aplicación de java hemos utilizado el IDE Netbeans 8.1.
 
 La Base de Datos utilizada es Oracle Database Enterprise Edition Release 12.1.0.2.0.
 
-Para hacer funcionar la aplicación primero importaremos el proyecto en Netbeans, al importar nos encontrara varios problemas ya que no encuentra las librerias utilizadas.
+/**
+* Despliegue de la aplicación
+*/
+
+En SQLDeveloper abriremos y ejecutaremos el modelo lógico para crear primero la base de datos de oracle sobre la que trabajaremos.
+
+Para hacer funcionar la aplicación importaremos el proyecto en Netbeans, al importar nos encontrara varios problemas ya que no encuentra las librerias utilizadas.
 
 Debemos de acordarnos también de modificar el codigo del GenericoBD en el modelo segun nuestras necesidades, ya que en este caso tenemos la conexion con nuestra base de datos que es daw10.
+
 Los campos que se modifican en el codigo son estos dos:           
   String user = "daw10";
   String pass = "daw10";
