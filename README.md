@@ -35,3 +35,5 @@ Una vez resuelto los problemas con las librerías ejecutaremos el programa en Ne
 Para hacer una prueba hay creado un usuario admin con contraseña admin. Este usuario de prueba es de tipo administración, asi que es capaz de acceder a todo.
 
 También se puede entrar por ejemplo con el usuario aritzGM con contraseña 1A que sería de administración o con amaiaGP con contraseña 2B que es de logística.
+
+Para cualquier otra duda el enlace a nuestro blog semanal esta en el repositorio.
